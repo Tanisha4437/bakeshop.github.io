@@ -1,0 +1,471 @@
+*   /*Universal Selector*/
+{
+    margin:0;
+}
+body
+{
+    background:gray;
+}
+#container
+{
+    background:white;
+    width:100%;
+    height:1500px;
+   
+}
+#menu
+{
+    height:90px;
+   /*background:yellow; */
+}
+#header
+{
+    height:400px;
+ /* background:linear-gradient(green,yellow);*/
+     /*background:url('cake.jpg');*/
+          background-repeat:no-repeat;
+          background-size:cover;  
+       }
+       #content
+       {
+          height:740px;
+         /*background:linear-gradient(pink,gray); */
+         
+       }
+       #footer
+       {
+          height:270px;
+         /* background:yellow;*/
+       }
+       #icon
+       {
+         /*background:black;*/
+          width:30%;
+          height:100%;
+          float:left;
+       }
+       #menuItem
+       {
+        /* background:pink; */
+         width:70%;
+         height:100%;
+         float:right;
+       }
+       #menu #icon img
+       {
+         height:100%;
+         width:50%;
+         margin-left:25%;
+       }
+       ul
+       {
+          list-style:none;
+          float:right;
+       }
+      
+        a.active {
+        color: white;
+        background-color: dodgerblue;
+}
+       ul li
+       {
+          display:inline-block;
+          margin:15px;
+       }
+       #header #headerContent img
+       {
+          height:100%;
+          width:100%;
+       }
+       #header #headerContent div h1
+       {
+         position:absolute;
+         margin-top:70px;
+         font-size:70px;
+         color:yellow;
+         text-shadow:3px 5px 4px green;
+       }
+       #contentUp
+       {
+         height:50%;
+         width:100%;
+         /*background:orange;*/ 
+       }
+       #contentBelow
+       {
+         height:50%;
+         width:100%;
+        /*background:green;*/ 
+       }
+       #contentUpLeft
+       {
+          width:37%;
+          height:100%;
+          margin-left:3%;
+         /* background:white; */
+          float:left;
+       }
+       #contentUpRight
+       {
+          width:55%;
+          height:100%;
+         /* background:yellow;*/
+          float:right;
+       }
+       #contentUpRight1
+       {
+          width:100%;
+          height:50%;
+         /* background:red; */
+       } 
+       #contentUpRight2
+       {
+          width:100%;
+          height:50%;
+         /* background:gray;*/
+       } 
+       #right1
+       {
+         height:95%;
+         width:30%;
+        /* background:green; */
+         float:left;
+         margin-left:1.5%;
+       }
+       #right2
+       {
+         height:95%;
+         width:30%;
+        /* background:pink;*/
+         float:left;
+         margin-left:3%;
+       }
+       #right3
+       {
+         height:95%;
+         width:30%;
+        /* background:#756f0b; */
+         float:right;
+         margin-right:1.5%;
+}
+#belowLeft
+{
+  /* background:red; */
+   width:25%;
+   height:100%;
+   float:left;
+   margin-left:8%;
+  
+}
+#belowCenter
+{
+  /* background:white; */
+   width:25%;
+   height:100%;
+   float:left;
+   margin-left:4.5%;
+}
+#belowRight
+{
+  /* background:pink; */
+   width:25%;
+   height:100%;
+   float:right;
+   margin-right:8%;
+}
+h3
+{
+   font-size:25px;
+    text-align:center;
+}
+p
+{
+font-size:22px;
+ text-align:center;
+ margin-top:20px;
+font-family: "Times New Roman";
+}
+#footerLeft
+{
+/*background:red;*/
+width:25%;
+height:100%;
+float:left;
+margin-right:8%;
+
+}
+#footerCenter
+{
+/*background:blue;*/
+width:25%;
+height:100%;
+float:left;
+ margin-right:8%;
+
+}
+#footerRight
+{
+/*background:pink;*/
+width:25%;
+height:100%;
+float:right;
+ margin-right:8%;
+
+}
+ol 
+{
+margin-right:16%;
+margin-top:4%;
+font-size: 18px;
+list-style: none;
+
+}
+hr
+{
+margin-left:25%;
+}
+
+
+#header #aboutContent
+{
+height:400px;
+    /*background:linear-gradient(green,yellow);*/
+     background:url('birthdaycake1.jpg');
+          background-repeat:no repeat;
+          background-size:cover; 
+ 
+}
+#aboutContent  p
+{
+
+  text-align: justify;
+color:white;
+font-size:25px;
+font-family: "Times New Roman";
+}
+h1 
+{
+font-size:35px;
+text-align:center;
+
+}
+
+ #aboutUp 
+       {
+         height:50%;
+         width:100%;
+         /*background:orange;*/
+       }
+       #aboutBelow
+       {
+         height:50%;
+         width:100%;
+       /* background:green;*/
+       }
+ #aboutUpLeft img 
+{
+margin-top:80px;
+height:60%;
+ width:30%;
+background:black;
+float:left;
+
+}
+
+
+#aboutUpCenter img
+{
+margin-top:80px;
+height:60%;
+ width:30%;
+background:black;
+float:left;
+margin-left:5%;
+
+}
+
+#aboutUpRight   img
+{ 
+margin-top:80px;
+
+height:60%;
+width:30%;
+background:black;
+float:right;
+}
+
+#aboutBelowLeft  img
+{
+margin-top:80px;
+height:60%;
+width:30%;
+background:black;
+float:left;
+}
+
+ #aboutBelowCenter img
+{
+margin-top:80px;
+height:60%;
+ width:30%;
+background:black;
+float:left;
+margin-left:5%;
+}
+ #aboutBelowRight  img
+{
+margin-top:80px;
+height:60%;
+width:30%;
+background:black;
+float:right;
+}
+
+#contactForm
+{
+height:400px;
+ background:url('cherries.jpg');
+ background-repeat:no repeat;
+ background-size:cover; 
+}
+
+input {
+    width: 30%;
+  padding: 12px 20px;
+margin-top:-3px;
+}
+textarea {
+  
+  width: 30%;
+   height:100px;
+   padding: 12px 20px;
+  box-sizing: border-box;
+ resize: none;
+ 
+}
+button{
+ background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+ font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  }
+button:hover {
+  background-color: #3e8e41;
+}
+#locationLeft
+{
+
+margin-top:80px;
+height:35%;
+width:40%;
+/*background:black;*/
+float:left;
+}
+ 
+#locationRight
+{
+margin-top:80px;
+height:35%;
+width:40%;
+/*background:black;*/
+float:right;
+margin-right:5%;
+}
+
+#helpsearchbar
+{
+height:400px;
+background:url('helpcake.jpg');
+ background-repeat:no repeat;
+background-size:cover; 
+}
+#helpsearchbar input {
+margin-top:150px;
+    width: 35%;
+  padding: 12px 20px;
+
+}
+#helpsearchbar h2
+{
+color:white;
+font-size:40px;
+}
+#content
+{
+}
+#header #service
+{
+}
+#header #serviceimage
+{
+height:400px;
+
+background:url('servicecake.jpg');
+background-repeat:no repeat;
+background-size:cover; 
+}
+
+
+  #serviceUp
+       {
+         height:50%;
+         width:100%;
+         /*background:orange;*/
+       }
+       #serviceBelow
+       {
+         height:50%;
+         width:100%;
+        /*background:green;*/
+       }
+#serviceUpLeft 
+{
+margin-top:80px;
+margin-left:80px;
+height:60%;
+width:20%;
+/*background:white;*/
+float:left;
+
+}
+
+
+
+#serviceUpRight  
+{
+margin-top:80px;
+margin-Right:80px;
+height:60%;
+width:20%;
+/*background:black;*/
+float:right;
+}
+
+#serviceBelowLeft  
+{
+margin-top:80px;
+margin-Left:80px;
+height:60%;
+width:20%;
+/*background:black;*/
+float:left;
+}
+
+
+#serviceBelowRight  
+{
+margin-top:80px;
+margin-Right:80px;
+height:60%;
+width:20%;
+/*background:black;*/
+float:Right;
+}
+
+h1
+{
+  font-variant: small-caps;
+}
